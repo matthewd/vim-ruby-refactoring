@@ -44,7 +44,7 @@ function! common#get_range_for_block(pattern_start, flags)
     normal $
   endif
 
-  normal %
+  normal g%
   let block_end = line(".")
 
   " Restore the cursor
